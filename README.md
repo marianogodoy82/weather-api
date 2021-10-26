@@ -21,6 +21,10 @@
 
 1. Run node app.js
 
+## How To Test
+
+1. Run npm run test 
+
 ## Endpoints
 
 1. GET      /v1/location      fetch location data according to geolocation

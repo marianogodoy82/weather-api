@@ -1,8 +1,7 @@
-import {fetchCurrent,fetchForecast} from "../../../modules/weather/service/weather.service.js";
 import dotenv from "dotenv";
-import chai from "chai"
+import {expect} from "chai"
+import {fetchCurrent,fetchForecast} from "../../../modules/weather/service/weather.service.js";
 
-const expect = chai.expect
 
 describe('weather.service', () => {
     describe('fetchCurrent', () => {
